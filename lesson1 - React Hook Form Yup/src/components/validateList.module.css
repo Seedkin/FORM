@@ -1,0 +1,23 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.errorList {
+    min-width: 390px;
+    list-style: none;
+    text-align: left;
+}
+
+.errorListItem {
+    color: red;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.errorDone {
+    color: green;
+}
