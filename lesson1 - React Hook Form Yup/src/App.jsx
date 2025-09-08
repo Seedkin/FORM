@@ -35,10 +35,8 @@ export const App = () => {
     }
 
     useEffect(() => {
-        if (isValid) {
-            submitBtn.current.focus()
-        }
-    })
+        submitBtn.current.focus()
+    }, [isValid])
 
     return (
         <div className={styles.formContainer}>
